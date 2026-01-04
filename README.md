@@ -23,8 +23,10 @@ keep the data in root folder Perforated-MONAI\datasets\monai\Task01_BrainTumour
 ## 3. Installation
 Clone the repository and install dependencies:
 
-git clone https://github.com/PerforatedAI/PerforatedAI.git
-pip install -r examples/perforated_monai_3d_unet/requirements.txt
+git clone https://github.com/Oyaabuun/perforated_monai_3d_unet.git
+
+inside root of this project run git clone https://github.com/PerforatedAI/PerforatedAI.git
+pip install -r requirements.txt
 
 # Train baseline
 python src/training/train_baseline.py
@@ -35,11 +37,13 @@ python src/training/train_dendritic_old.py
 
 4. Results
 Full-capacity UNet:
+![Accuracy Improvement - Compressed UNet](accuracy_improvement.png)
 - Baseline Dice: ~0.207
 - Dendritic Dice: ~0.267 (+29%)
 accuracy_improvement.png
 
 Compressed UNet:
+![Accuracy Improvement - Compressed UNet](accuracy_improvement_compressed.png)
 - Baseline Dice: ~0.155
 - Dendritic Dice: ~0.185 (+19%)
 accuracy_improvement_compressed.png
