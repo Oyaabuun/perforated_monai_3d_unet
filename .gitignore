@@ -18,21 +18,21 @@ __pycache__/
 # =========================
 datasets/
 outputs/
-checkpoints/
 best_run_logs/
-
+PAI_MONAI_Compressed/
+PAI_MONAI_full/
 # =========================
 # Experiment Tracking
 # =========================
 wandb/
-W&B_Reports/
+
 
 # =========================
 # Local / Internal Libraries
 # =========================
 perforatedai/
-PAI/
-PAI_MONAI/
+
+W&B_Reports/
 
 # =========================
 # Docs & Local Files (Do NOT commit)
